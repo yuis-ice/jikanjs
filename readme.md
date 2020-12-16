@@ -64,7 +64,7 @@ npm i -g browserify
 npm i jikanjs 
 
 // main02.js 
-const jikanjs  = require('jikanjs');
+window.jikanjs = require('jikanjs');
 
 // build bundle JS file
 browserify main02.js > bundle02.js
