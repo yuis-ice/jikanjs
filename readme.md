@@ -59,18 +59,13 @@ var tmp;
 ## reproduction
 
 ```
+// npm i 
 npm i -g browserify
 npm i jikanjs 
-``` 
 
-main02.js 
-
-```js 
+// main02.js 
 const jikanjs  = require('jikanjs');
-```
 
-```
+// build bundle JS file
 browserify main02.js > bundle02.js
 ```
-
-cp bundle02.js jikanjs.js
